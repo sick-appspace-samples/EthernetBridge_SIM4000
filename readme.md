@@ -1,10 +1,15 @@
 ## EthernetBridge_SIM4000
+
 Using Ethernet bridge on SIM4000 to change IP-Address of attached pico-/midiCams
+
 ### Description
+
 This SampleApp shows how to adapt IP-Address of 2 pico-/midiCams using the
 SICK-I2DCameraManager without disconnecting the cameras from the SIM4000.
 In the same way IP addresses of SICK sensors can be modified using SOPAS-ET instead. Note: This SampleApp requires SIM4000 FW1.5.0 or higher.
+
 ### How to Run
+
 In order to work the following steps have to done in the exact order
 0.  Deactivate all running Apps
 1.  Activate EthernetBridge-App in the AppExplorer of AppStudio
@@ -23,4 +28,5 @@ In order to work the following steps have to done in the exact order
 11. Activate and start any other App
 
 ### Topics
-Device, SIM4000, Communication, Sample, SICK-AppSpace
+
+device, sim4000, communication, sample, sick-appspace
